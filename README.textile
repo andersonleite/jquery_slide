@@ -17,28 +17,12 @@ Create a <b>index.html</b>:
 <h2>Usage</h2>
 Create your slides like that:
 
-==
-	  <div id="slideshow">
+<code><div id="slideshow">
 
-	    <div id="slidesContainer">
+    <div id="slidesContainer">
+</code>
 
-	      <div class="slide">
-	        <h2>Ruby</h2>
-	        <p>Ruby Programming</p>
-	      </div>
 
-	      <div class="slide">
-	        <h2>Java</h2>
-	        <p>Java Programming</p>
-	      </div>	
-	
-		 <!-- Another slides here -->
-
-		</div>
-
-	</div>		
-
-==
 
 Then..just call:
 
