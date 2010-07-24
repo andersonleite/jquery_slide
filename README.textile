@@ -17,10 +17,7 @@ Create a <b>index.html</b>:
 <h2>Usage</h2>
 Create your slides like that:
 
-<code><div id="slideshow">
-
-    <div id="slidesContainer">
-</code>
+<code><div id="slideshow"><div id="slidesContainer"><div class="slide">content here</div></div></code>
 
 
 
