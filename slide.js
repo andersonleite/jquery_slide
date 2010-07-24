@@ -1,8 +1,6 @@
 jQuery.fn.slide = function(width) {
   return this.each(function(){
 		
-		// slide
-		// (".slide").hide();
 		var position = 0;
 		var slideWidth = width;
 		var slides = $('.slide');
@@ -37,10 +35,7 @@ jQuery.fn.slide = function(width) {
 			});
 
 		});
-	
-		
-		// slide
-	
+			
   });
 };
 
