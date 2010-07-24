@@ -7,7 +7,9 @@
 Create a <b>index.html</b>:
 
 <code>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script><br/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</code>	
+<code>
 <script type="text/javascript" src="slide.js" ></script>
 </code>	
 
