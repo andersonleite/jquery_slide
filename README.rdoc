@@ -1,0 +1,12 @@
+<div class="wikistyle"><h1>TextCaptcha</h1></div>
+
+
+<h3>Easy way to create slides of images using JQuery.</h3>
+
+<h2>Install</h2>
+Create a <b>index.html</b>:
+
+<code>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="slide.js" ></script>
+</code>	
