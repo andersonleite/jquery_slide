@@ -17,7 +17,6 @@ Create a <b>index.html</b>:
 <h2>Usage</h2>
 Create your slides like that:
 
-<code>
 
 	  <div id="slideshow">
 
@@ -39,10 +38,9 @@ Create your slides like that:
 
 	</div>		
 
-</code>
+
 
 Then..just call:
 
-<code>
+
 	$("#slideshow").slide(100);
-</code>
