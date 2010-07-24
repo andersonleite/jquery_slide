@@ -1,12 +1,46 @@
-<div class="wikistyle"><h1>TextCaptcha</h1></div>
+<div class="wikistyle"><h1>JQuery Slide</h1></div>
 
 
-<h3>Easy way to create slides of images using JQuery.</h3>
+<h3>Easy way to create slides of images using JQuery.
 
 <h2>Install</h2>
 Create a <b>index.html</b>:
 
 <code>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script><br/>
 <script type="text/javascript" src="slide.js" ></script>
 </code>	
+
+
+<h2>Usage</h2>
+Create your slides like that:
+
+<code>
+
+	  <div id="slideshow">
+
+	    <div id="slidesContainer">
+
+	      <div class="slide">
+	        <h2>Ruby</h2>
+	        <p>Ruby Programming</p>
+	      </div>
+
+	      <div class="slide">
+	        <h2>Java</h2>
+	        <p>Java Programming</p>
+	      </div>	
+	
+		 <!-- Another slides here -->
+
+		</div>
+
+	</div>		
+
+</code>
+
+Then..just call:
+
+<code>
+	$("#slideshow").slide(100);
+</code>
