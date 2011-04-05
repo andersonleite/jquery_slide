@@ -1,0 +1,13 @@
+#slideshow {width:393px;height:272px;position:relative; overflow:auto;}
+#slideshow #slidesContainer {top: 0; margin:auto;}
+#slideshow #slidesContainer .slide {height: 272px; width: 393px}
+#slideshow #slidesContainer .slide img{height: 272px; width: 393px;}
+
+.control {display:block;text-indent:-10000px; position:absolute; cursor: pointer;}
+#rightControl, #leftControl {width:35px; height:64px; background:url(/setas.png) no-repeat 0 0 transparent; top:100px}
+#rightControl {background-position: -4px 50%; display:none; right:5px}
+#leftControl {background-position: -89px 50%; display:none; left:5px}
+#rightControl:hover{background-position: -46px 50%;}
+#rightControl{background-position: -4px 50%; display:none; right:5px}
+#leftControl:hover{background-position: -130px 50%;}
+#leftControl{background-position: -89px 50%; display:none; left:5px}
