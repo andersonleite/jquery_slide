@@ -23,5 +23,5 @@ Create your slides like that:
 
 Then..just call:
 
-<code>$("#slideshow").slide(100);</code>
+<code>$("#slideshow").slide();</code>
 	

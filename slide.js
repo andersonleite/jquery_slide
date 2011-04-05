@@ -1,4 +1,5 @@
-
+jQuery.fn.slide = function() {
+  return this.each(function(){
 		
 	  	var currentPosition = 0;
 		var slideWidth = $('.slide').width();
@@ -49,7 +50,8 @@
 			});
 		});
 		
-			
+  });
+};
 
 
 
